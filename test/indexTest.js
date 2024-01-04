@@ -1,5 +1,5 @@
 const chai = require("chai");
-global.expect = chai.expect;
+const expect = chai.expect;
 const hasTargetSum = require("../index");
 
 describe("hasTargetSum", () => {
